@@ -1,0 +1,21 @@
+POST http://localhost:5000/todos/
+Content-Type:application/json
+
+{
+   "taskname":"HTML" ,
+   "status":false
+}
+###
+GET http://localhost:5000/
+
+###
+
+DELETE http://localhost:5000/todos/6/
+
+###
+PUT http://localhost:5000/todos/38/
+Content-Type:application/json
+
+{
+   "status":true
+}
